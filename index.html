@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Psicologia</title>
+
+  <link rel="stylesheet" href="./style.css" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+  <nav id="navigation">
+    <div class="wrapper">
+      <a class="logo" href="#home">
+      </a>
+      <div class="menu">
+        <ul>
+          <li><a href="#">Portfolio Psicologia</a></li>
+          <li>
+            <a onclick="closeMenu()" href="#home">Início</a>
+          </li>
+          <li><a onclick="closeMenu()" href="#about">Projetos</a></li>
+        </ul>
+      </div>
+
+      <button aria-expanded="false" aria-label="Abrir menu" onclick="openMenu()" class="open-menu">
+        <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M10 20H30" stroke="#00856F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+          <path d="M10 12H30" stroke="#00856F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+          <path d="M18 28L30 28" stroke="#00856F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        </svg>
+      </button>
+      <button aria-expanded="true" aria-label="Fechar menu" onclick="closeMenu()" class="close-menu">
+        <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M30 10L10 30M10 10L30 30" stroke="#FFFAF1" stroke-width="2" stroke-linecap="round"
+            stroke-linejoin="round" />
+        </svg>
+      </button>
+    </div>
+  </nav>
+
+  <section id="home">
+    <div class="wrapper">
+      <div class="col-a">
+        <header>
+          <h4>Portfólio de Psicologia</h4>
+          <h1>Sobre o Estágio</h1>
+        </header>
+        <div class="content">
+          <p>
+            Estudante de Psicologia Noeli Salete Machado, realizado estágio Clínico, na Prefeitura Municipal - Setor Saúde Mental e no Núcleo de Psicologia. Nestes locais foram realizado Triagem, Anamnese, Aconselhamento, Acolhimento e Escuta dentro do estágio clínico. De forma ampla apostando no seu conhecimento para poder ajudar seus pacientes, somando num total de 90 atendimentos ao todo. Atendimentos feitos Durante o Estagio Clínico nos locais citados.
+            
+
+          </p>
+          <a class="button" onclick="closeMenu()" target="_blank" href="assets/portfolioclinico.pdf">Projeto
+            em
+            PDF</a>
+
+        </div>
+      </div>
+      <div class="col-b">
+        <img src="./assets/psicoo.png" alt="Mulher negra vestindo moletom verde com as duas mãos no peito e sorrindo" />
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="title-about">
+      <h1>Projetos</h1>
+    </div>
+    <div class="wrapper">
+      <div class="col-a">
+
+        <header>
+
+          <h2>Triagem Adulta</h2>
+        </header>
+
+        <div class="content">
+          <p>
+            Foram feitas várias triagens psicológicas entre o Núcleo de psicologia e Saúde Mental, objetivo da triagem psicológica, é realizar uma compreensão inicial do sofrimento apresentado pela pessoa que procura alguma forma de alivio para seu sofrimento, possibilitando a elaboração de hipóteses diagnósticas e a sugestão de caminhos investigativos para a escolha do encaminhamento mais apropriado.
+          </p>
+        </div>
+      </div>
+
+      <div class="col-b">
+        <img src="./assets/triagemadulta.png" alt="Doutor feliz segurando prancheta com pacientes" />
+      </div>
+
+    </div>
+
+  </section>
+  <section id="contact">
+    <div class="wrapper">
+      <div class="col-a content">
+        <header>
+          <h2>Triagem Infantil</h2>
+          <p>O objetivo da triagem infantil, é realizar uma entrevista para se ter uma compreensão inicial do sofrimento apresentado pela criança e recolher informações sobre o motivo da consulta para posteriormente possibilitar uma elaboração de hipóteses diagnósticas e a sugestão de caminhos investigativos para a escolha do encaminhamento mais apropriado.</p>
+        </header>
+      </div>
+      <div class="col-b">
+        <img src="./assets/triageminfantil.png" alt="Homem negro com moletom bege mexendo no celular e sorrindo" />
+      </div>
+    </div>
+  </section>
+  <section id="about">
+    <div class="wrapper">
+      <div class="col-a">
+        <header>
+          <h2>Anamnese Infantil</h2>
+        </header>
+        <div class="content">
+          <p>
+            No atendimento infantil, foi realizado com os pais ou responsáveis pela criança, com o objetivo de investigar e acolher toda e qualquer informação que a família traz, uma vez que as crianças pequenas não conseguem explicar com clareza ao psicólogo, eventos familiares e situações relacionadas ao tempo e espaço.
+          </p>
+        </div>
+      </div>
+      <div class="col-b">
+        <img src="./assets/protocolo.png" alt="Doutor feliz segurando prancheta com pacientes" />
+      </div>
+    </div>
+  </section>
+  <section id="contact">
+    <div class="wrapper">
+      <div class="col-a content">
+        <header>
+          <h2>Anamnese Adulta</h2>
+          <p>Não tem grandes detalhamentos em relação às fases anteriores da vida. As questões mais importantes referem-se às demandas de desenvolvimento esperadas nos âmbitos sexual, familiar, social, ocupacional e físico. </p>
+        </header>
+      </div>
+      <div class="col-b">
+        <img src="./assets/identificacao.png" alt="Homem negro com moletom bege mexendo no celular e sorrindo" />
+      </div>
+    </div>
+  </section>
+  <section id="about">
+    <div class="wrapper">
+      <div class="col-a">
+        <header>
+          <h2>Aconselhamento Psicológico</h2>
+        </header>
+        <div class="content">
+          <p>
+            Foi realizado o aconselhamento psicológico, O aconselhamento se distingue da psicoterapia em alguns fatores. A técnica por trás dessa abordagem refere-se à solução de problemas, a tomada de decisão e a gestão da rotina diária.
+          </p>
+        </div>
+      </div>
+      <div class="col-b">
+        <img src="./assets/aconselhamento.png" alt="Doutor feliz segurando prancheta com pacientes" />
+      </div>
+    </div>
+  </section>
+  <section id="contact">
+    <div class="wrapper">
+      <div class="col-a content">
+        <header>
+          <h2>Acolhimento Psicológico</h2>
+          <p>Foi realizado o acolhimento psicológico é muitas vezes visto como um atendimento de crise, para auxiliar na manutenção de uma situação/quadro específico. </p>
+        </header>
+      </div>
+      <div class="col-b">
+        <img src="./assets/acolhimento.png" alt="Homem negro com moletom bege mexendo no celular e sorrindo" />
+      </div>
+    </div>
+  </section>
+  <footer>
+    <div class="wrapper">
+
+    </div>
+
+    <div class="col-b">
+    </div>
+  </footer>
+
+  <a id="backToTopButton" href="#home">
+    <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="20" cy="20" r="20" fill="#00856F" />
+      <path d="M20 27V13" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M13 20L20 13L27 20" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+    </svg>
+  </a>
+
+  <!-- ScrollReaveal Lib -->
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script src="./main.js"></script>
+</body>
+
+</html>
