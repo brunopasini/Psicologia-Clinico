@@ -393,7 +393,16 @@ footer {
 .button:hover {
   background-color: var(--brand-dark);
 }
-
+.botao{
+  margin: 20px -4px;
+  display: flex;
+  justify-content: center;
+  
+}
+.teste{
+  display: flex;
+  flex-direction: column;
+}
 /*=== RESPONSIVO =================================*/
 @media (min-width: 1024px) {
   /*=== GERAL =================================*/
